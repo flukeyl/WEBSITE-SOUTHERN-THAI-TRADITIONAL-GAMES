@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+}
+
+body {
+    background: #FEFAE0;   
+}
+
+.card1 {
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    grid-gap: 1rem;
+}
+
+.card-left {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.card-right {
+    width: 100%;
+    padding: 1rem;
+    outline: 1px solid #BBBBBB;
+    border-radius: 50px;
+    background: #fff;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.card-right h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card-right .text-uni {
+    margin-bottom: 5px;
+}
+
+.card-right .text-contract {
+    margin-bottom: 80px;
+}
+
+.card-right .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 5px 5px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #000;
+    transition: all 0.5s ease;
+}
